@@ -1,0 +1,39 @@
+{
+  "name": "FirstApp",
+  "displayName": "FirstApp",
+  "expo": {
+    "name": "FirstApp",
+    "icon": "./assets/appify_logo.png",
+    "slug": "FirstApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "icon": "./assets/appify_logo.png",
+      "splash": {
+        "image": "./assets/appify_logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "versionCode": 1
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "splash": {
+      "image": "./assets/appify_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
